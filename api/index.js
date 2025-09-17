@@ -23,5 +23,4 @@ app.get("/proxy", async (req, res) => {
   }
 });
 
-// Export cho Vercel
 export default serverless(app);
